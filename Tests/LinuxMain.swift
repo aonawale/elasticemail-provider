@@ -1,12 +1,10 @@
 #if os(Linux)
 
 import XCTest
-@testable import AppTests
+@testable import ElasticEmailProviderTests
 
 XCTMain([
-    // AppTests
-    testCase(PostControllerTests.allTests),
-    testCase(RouteTests.allTests)
+    testCase(ElasticEmailProviderTests.allTests),
 ])
 
 #endif
